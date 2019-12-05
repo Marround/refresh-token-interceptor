@@ -1,0 +1,14 @@
+{
+  "/auth/oauth2": {
+    "target": "https://api.us.onelogin.com",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  },
+  "/api": {
+    "target": "https://api.us.onelogin.com",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  }
+}

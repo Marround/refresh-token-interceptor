@@ -1,0 +1,15 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+form > * {
+  padding: 5px 0;
+  flex: 0 0 auto;
+}
+
+input {
+  width: 100%;
+  transition: ease-in-out, width .35s ease-in-out;
+}

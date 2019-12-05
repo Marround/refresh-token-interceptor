@@ -1,0 +1,10 @@
+<form ngForm [formGroup]="form">
+  <label>
+    <input type="text" formControlName="login">
+  </label>
+  <label>
+    <input type="password" formControlName="password">
+  </label>
+  <button (click)="login()" [disabled]="form.invalid">Login</button>
+  <small>{{errMessage}}</small>
+</form>
